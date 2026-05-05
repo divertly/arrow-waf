@@ -1,7 +1,11 @@
 package main
 
 import (
+	"io"
+	"os"
 	"runtime"
+
+	"gopkg.in/yaml.v3"
 )
 
 func this() (string, string) {
@@ -16,4 +20,21 @@ func this() (string, string) {
 	}
 
 	return "func", fn.Name()
+}
+
+func LoadRuleList(fname string) (*CRSRuleList, error) {
+	rl := &CRSRuleList{}
+	fd, err := os.OpenFile(fname, os.O_RDONLY, 0600) // #nosec:G304
+	if err != nil {
+		return nil, err
+	}
+	b, err := io.ReadAll(fd)
+	if err != nil {
+		return nil, err
+	}
+	err = yaml.Unmarshal(b, &rl)
+	if err != nil {
+		return nil, err
+	}
+	return rl, nil
 }

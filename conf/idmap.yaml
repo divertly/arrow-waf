@@ -1,0 +1,7448 @@
+901001:
+  msg: CRS is deployed without configuration! Please copy the crs-setup.conf.example template to crs-setup.conf, and include the crs-setup.conf file in your webserver configuration before including the CRS rules. See the INSTALL file in the CRS directory for detailed instructions
+  severity: CRITICAL
+  phase: 1
+  action: deny
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901100:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901110:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901111:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901115:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901120:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901125:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901130:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901140:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901141:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901142:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901143:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901160:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901162:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901163:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901164:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901165:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901167:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901168:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901169:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901170:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901171:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901200:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901320:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901340:
+  msg: Enabling body inspection
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901350:
+  msg: Enabling forced body inspection for ASCII content
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901400:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901410:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901450:
+  msg: 'Sampling: Disable the rule engine based on sampling_percentage %{TX.sampling_percentage} and random number %{TX.sampling_rnd100}'
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901500:
+  msg: Detection paranoia level configured is lower than the paranoia level itself. This is illegal. Blocking request. Aborting
+  severity: ''
+  phase: 1
+  action: deny
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+901510:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+905100:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-apache
+    - attack-generic
+    - OWASP_CRS
+905110:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-apache
+    - attack-generic
+    - OWASP_CRS
+911011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+911012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+911013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+911014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+911015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+911016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+911017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+911018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+911100:
+  msg: Method is not allowed by policy
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-generic
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/METHOD-ENFORCEMENT
+    - capec/1000/210/272/220/274
+913011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+913012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+913013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+913014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+913015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+913016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+913017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+913018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+913100:
+  msg: Found User-Agent associated with security scanner
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-reputation-scanner
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/SCANNER-DETECTION
+    - capec/1000/118/224/541/310
+920011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+920012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+920013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+920014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+920015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+920016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+920017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+920018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+920100:
+  msg: Invalid HTTP Request Line
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920120:
+  msg: Attempted multipart/form-data bypass
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920121:
+  msg: Attempted multipart/form-data bypass
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920160:
+  msg: Content-Length HTTP header is not numeric
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920170:
+  msg: GET or HEAD Request with Body Content
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920171:
+  msg: GET or HEAD Request with Transfer-Encoding
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920180:
+  msg: POST without Content-Length and Transfer-Encoding headers
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920181:
+  msg: Content-Length and Transfer-Encoding headers present
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920190:
+  msg: 'Range: Invalid Last Byte Value'
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920200:
+  msg: 'Range: Too many fields (6 or more)'
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920201:
+  msg: 'Range: Too many fields for pdf request (63 or more)'
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920202:
+  msg: 'Range: Too many fields for pdf request (6 or more)'
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/4
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920210:
+  msg: Multiple/Conflicting Connection Header Data Found
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920230:
+  msg: Multiple URL Encoding Detected
+  severity: WARNING
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153/267/120
+920240:
+  msg: URL Encoding Abuse Attack Attempt
+  severity: WARNING
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153/267/72
+920250:
+  msg: UTF8 Encoding Abuse Attack Attempt
+  severity: WARNING
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153/267
+920260:
+  msg: Unicode Full/Half Width Abuse Attack Attempt
+  severity: WARNING
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-iis
+    - platform-windows
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153/267/72
+920270:
+  msg: Invalid character in request (null character)
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920271:
+  msg: Invalid character in request (non printable characters)
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920272:
+  msg: Invalid character in request (outside of printable chars below ascii 127)
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920273:
+  msg: Invalid character in request (outside of very strict set)
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/4
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920274:
+  msg: Invalid character in request headers (outside of very strict set)
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/4
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920275:
+  msg: Invalid character in request headers (outside of very strict set)
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/4
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920280:
+  msg: Request Missing a Host Header
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920290:
+  msg: Empty Host Header
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920300:
+  msg: Request Missing an Accept Header
+  severity: NOTICE
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920310:
+  msg: Request Has an Empty Accept Header
+  severity: NOTICE
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920311:
+  msg: Request Has an Empty Accept Header
+  severity: NOTICE
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920320:
+  msg: Missing User Agent Header
+  severity: NOTICE
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920330:
+  msg: Empty User Agent Header
+  severity: NOTICE
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920340:
+  msg: Content-Type header missing from request with non-zero Content-Length
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920350:
+  msg: Host header is a numeric IP address
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920360:
+  msg: Argument name too long
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920370:
+  msg: Argument value too long
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920380:
+  msg: Too many arguments in request
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920390:
+  msg: Total arguments size exceeded
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920400:
+  msg: Uploaded file size too large
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920410:
+  msg: Total uploaded files size too large
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920420:
+  msg: Request content type is not allowed by policy
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153
+920430:
+  msg: HTTP protocol version is not allowed by policy
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920440:
+  msg: URL file extension is restricted by policy
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920450:
+  msg: HTTP header is restricted by policy (%{MATCHED_VAR})
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920451:
+  msg: HTTP header is restricted by policy (%{MATCHED_VAR})
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920460:
+  msg: Abnormal character escapes in request
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/4
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/153/267
+920470:
+  msg: Illegal Content-Type header
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153
+920480:
+  msg: Request content type charset is not allowed by policy
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153
+920490:
+  msg: Request header x-up-devcap-post-charset detected in combination with prefix 'UP' to User-Agent
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-aspnet
+    - platform-windows
+    - attack-protocol
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920500:
+  msg: Attempt to access a backup or working file
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920510:
+  msg: Invalid Cache-Control request header
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - header-allowlist
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920520:
+  msg: Accept-Encoding header exceeded sensible length
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153
+920521:
+  msg: Illegal Accept-Encoding header
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153
+920530:
+  msg: Multiple charsets detected in content type header
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153
+920539:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+920540:
+  msg: Possible Unicode character bypass detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/255/153/267/72
+920600:
+  msg: 'Illegal Accept header: charset parameter'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+920610:
+  msg: Raw (unencoded) fragment in request URI
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+920620:
+  msg: Multiple Content-Type Request Headers
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+920640:
+  msg: Content-Type header missing from request with body
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920650:
+  msg: HTTP method override attempt via _method parameter
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+920660:
+  msg: Obsolete Request-Range header detected
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ENFORCEMENT
+    - capec/1000/210/272
+921011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+921012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+921013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+921014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+921015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+921016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+921017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+921018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+921110:
+  msg: HTTP Request Smuggling Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/33
+921120:
+  msg: HTTP Response Splitting Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/34
+921130:
+  msg: HTTP Response Splitting Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/34
+921140:
+  msg: HTTP Header Injection Attack via headers
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/273
+921150:
+  msg: HTTP Header Injection Attack via payload (CR/LF detected)
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/33
+921151:
+  msg: HTTP Header Injection Attack via payload (CR/LF detected)
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/33
+921160:
+  msg: HTTP Header Injection Attack via payload (CR/LF and header-name detected)
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/33
+921170:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/152/137/15/460
+921180:
+  msg: HTTP Parameter Pollution (%{MATCHED_VAR_NAME})
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/152/137/15/460
+921190:
+  msg: HTTP Splitting (CR/LF in request filename detected)
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/34
+921200:
+  msg: LDAP Injection Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-ldap
+    - platform-multi
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/152/248/136
+921210:
+  msg: HTTP Parameter Pollution after detecting bogus char after parameter array
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/152/137/15/460
+921220:
+  msg: HTTP Parameter Pollution possible via array notation
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/4
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/152/137/15/460
+921230:
+  msg: HTTP Range Header detected
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220
+921240:
+  msg: mod_proxy attack attempt detected
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-apache
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/33
+921250:
+  msg: Old Cookies V1 usage attempt detected
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/210/272/220/33
+921421:
+  msg: 'Content-Type header: Dangerous content type outside the mime type declaration'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/255/153
+921422:
+  msg: 'Content-Type header: Dangerous content type outside the mime type declaration'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-protocol
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/PROTOCOL-ATTACK
+    - capec/1000/255/153
+922100:
+  msg: Multipart content type global _charset_ definition is not allowed by policy
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-multipart-header
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/MULTIPART-ATTACK
+    - capec/1000/255/153
+922110:
+  msg: 'Illegal MIME Multipart Header content-type: charset parameter'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-multipart-header
+    - attack-protocol
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/MULTIPART-ATTACK
+    - capec/272/220
+922120:
+  msg: Content-Transfer-Encoding was deprecated by rfc7578 in 2015 and should not be used
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-multipart-header
+    - attack-deprecated-header
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/MULTIPART-ATTACK
+    - capec/272/220
+922130:
+  msg: Multipart header contains characters outside of valid range
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-multipart-header
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/MULTIPART-ATTACK
+    - capec/272/220
+922140:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - attack-multipart-header
+    - OWASP_CRS
+    - OWASP_CRS/MULTIPART-ATTACK
+922150:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - attack-multipart-header
+    - OWASP_CRS
+    - OWASP_CRS/MULTIPART-ATTACK
+930011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+930012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+930013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+930014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+930015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+930016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+930017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+930018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+930100:
+  msg: Path Traversal Attack (/../) or (/.../)
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-lfi
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-LFI
+    - capec/1000/255/153/126
+930110:
+  msg: Path Traversal Attack (/../) or (/.../)
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-lfi
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-LFI
+    - capec/1000/255/153/126
+930120:
+  msg: OS File Access Attempt
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-lfi
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-LFI
+    - capec/1000/255/153/126
+930121:
+  msg: OS File Access Attempt in REQUEST_HEADERS
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-lfi
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-LFI
+    - capec/1000/255/153/126
+930130:
+  msg: Restricted File Access Attempt
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-lfi
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-LFI
+    - capec/1000/255/153/126
+930140:
+  msg: 'Restricted File Access Attempt: AI Coding Assistant Artifact'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-lfi
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-LFI
+    - capec/1000/255/153/126
+931011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+931012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+931013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+931014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+931015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+931016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+931017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+931018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+931100:
+  msg: 'Possible Remote File Inclusion (RFI) Attack: URL Parameter using IP Address'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rfi
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RFI
+    - capec/1000/152/175/253
+931110:
+  msg: 'Possible Remote File Inclusion (RFI) Attack: Common RFI Vulnerable Parameter Name used w/URL Payload'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rfi
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RFI
+    - capec/1000/152/175/253
+931120:
+  msg: 'Possible Remote File Inclusion (RFI) Attack: URL Payload Used w/Trailing Question Mark Character (?)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rfi
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RFI
+    - capec/1000/152/175/253
+931130:
+  msg: 'Possible Remote File Inclusion (RFI) Attack: Off-Domain Reference/Link'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rfi
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RFI
+    - capec/1000/152/175/253
+931131:
+  msg: Possible Remote File Inclusion (RFI) Attack
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rfi
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RFI
+    - capec/1000/152/175/253
+932011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+932012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+932013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+932014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+932015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+932016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+932017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+932018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+932120:
+  msg: 'Remote Command Execution: Windows PowerShell Command Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - language-powershell
+    - platform-windows
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932125:
+  msg: 'Remote Command Execution: Windows Powershell Alias Command Injection'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-windows
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932130:
+  msg: 'Remote Command Execution: Unix Shell Expression Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932131:
+  msg: 'Remote Command Execution: Unix Shell Expression Found'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932140:
+  msg: 'Remote Command Execution: Windows FOR/IF Command Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-windows
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932160:
+  msg: 'Remote Command Execution: Unix Shell Code Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932161:
+  msg: 'Remote Command Execution: Unix Shell Code Found in REQUEST_HEADERS'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932170:
+  msg: 'Remote Command Execution: Shellshock (CVE-2014-6271)'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932171:
+  msg: 'Remote Command Execution: Shellshock (CVE-2014-6271)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932175:
+  msg: 'Remote Command Execution: Unix shell alias invocation'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932180:
+  msg: Restricted File Upload Attempt
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932190:
+  msg: 'Remote Command Execution: Wildcard bypass technique attempt'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932200:
+  msg: RCE Bypass Technique
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932205:
+  msg: RCE Bypass Technique
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932206:
+  msg: RCE Bypass Technique
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932207:
+  msg: RCE Bypass Technique
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932210:
+  msg: 'Remote Command Execution: SQLite System Command Execution'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932220:
+  msg: 'Remote Command Execution: Unix Command Injection with pipe'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932230:
+  msg: 'Remote Command Execution: Unix Command Injection (2-3 chars)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932231:
+  msg: 'Remote Command Execution: Unix Command Injection'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932232:
+  msg: 'Remote Command Execution: Unix Command Injection'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932235:
+  msg: 'Remote Command Execution: Unix Command Injection (command without evasion)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932236:
+  msg: 'Remote Command Execution: Unix Command Injection (command without evasion)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932237:
+  msg: 'Remote Command Execution: Unix Shell Code Found in REQUEST_HEADERS'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932238:
+  msg: 'Remote Command Execution: Unix Shell Code Found in REQUEST_HEADERS'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932239:
+  msg: 'Remote Command Execution: Unix Command Injection found in user-agent or referer header'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932240:
+  msg: 'Remote Command Execution: Unix Command Injection evasion attempt detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932250:
+  msg: 'Remote Command Execution: Direct Unix Command Execution'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932260:
+  msg: 'Remote Command Execution: Direct Unix Command Execution'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932270:
+  msg: 'Remote Command Execution: Unix Shell Expression Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932271:
+  msg: 'Remote Command Execution: Unix Shell Expression Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932280:
+  msg: 'Remote Command Execution: Brace Expansion Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932281:
+  msg: 'Remote Command Execution: Brace Expansion Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932300:
+  msg: 'Remote Command Execution: SMTP Command Execution'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/137/134
+932301:
+  msg: 'Remote Command Execution: SMTP Command Execution'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/137/134
+932310:
+  msg: 'Remote Command Execution: IMAP Command Execution'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/137/134
+932311:
+  msg: 'Remote Command Execution: IMAP Command Execution'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/137/134
+932320:
+  msg: 'Remote Command Execution: POP3 Command Execution'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/137/134
+932321:
+  msg: 'Remote Command Execution: POP3 Command Execution'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - platform-multi
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/137/134
+932330:
+  msg: 'Remote Command Execution: Unix shell history invocation'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932331:
+  msg: 'Remote Command Execution: Unix shell history invocation'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932340:
+  msg: 'Remote Command Execution: Direct Unix Command Execution (No Arguments)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932350:
+  msg: 'Remote Command Execution: Direct Unix Command Execution (No Arguments)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932370:
+  msg: 'Remote Command Execution: Windows Command Injection'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-windows
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932371:
+  msg: 'Remote Command Execution: Windows Command Injection'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-windows
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932380:
+  msg: 'Remote Command Execution: Windows Command Injection'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-windows
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+932390:
+  msg: 'Remote Command Execution: Shell Fork Bomb'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-shell
+    - platform-unix
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-RCE
+    - capec/1000/152/248/88
+933011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+933012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+933013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+933014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+933015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+933016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+933017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+933018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+933100:
+  msg: 'PHP Injection Attack: PHP Open Tag Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933110:
+  msg: 'PHP Injection Attack: PHP Script File Upload Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933111:
+  msg: 'PHP Injection Attack: PHP Script File Upload Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933120:
+  msg: 'PHP Injection Attack: Configuration Directive Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933130:
+  msg: 'PHP Injection Attack: Variables Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933131:
+  msg: 'PHP Injection Attack: Variables Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933135:
+  msg: 'PHP Injection Attack: Variable Access Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933140:
+  msg: 'PHP Injection Attack: I/O Stream Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933150:
+  msg: 'PHP Injection Attack: High-Risk PHP Function Name Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933151:
+  msg: 'PHP Injection Attack: Medium-Risk PHP Function Name Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933152:
+  msg: 'PHP Injection Attack: Medium-Risk PHP Function Name Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933153:
+  msg: 'PHP Injection Attack: Medium-Risk PHP Function Name Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933160:
+  msg: 'PHP Injection Attack: High-Risk PHP Function Call Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933161:
+  msg: 'PHP Injection Attack: Low-Value PHP Function Call Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933170:
+  msg: 'PHP Injection Attack: Serialized Object Injection'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933180:
+  msg: 'PHP Injection Attack: Variable Function Call Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933190:
+  msg: 'PHP Injection Attack: PHP Closing Tag Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933200:
+  msg: 'PHP Injection Attack: Wrapper scheme detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933210:
+  msg: 'PHP Injection Attack: Variable Function Call Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933211:
+  msg: 'PHP Injection Attack: Variable Function Call Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+933220:
+  msg: 'PHP Injection Attack: PHP Session File Upload Attempt'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-injection-php
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-PHP
+    - capec/1000/152/242
+934011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+934012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+934013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+934014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+934015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+934016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+934017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+934018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+934100:
+  msg: Node.js Injection Attack 1/2
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-javascript
+    - platform-multi
+    - platform-nodejs
+    - attack-rce
+    - attack-injection-generic
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/152/242
+934101:
+  msg: Node.js Injection Attack 2/2
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-javascript
+    - platform-nodejs
+    - attack-rce
+    - attack-injection-generic
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/152/242
+934110:
+  msg: 'Possible Server Side Request Forgery (SSRF) Attack: Cloud provider metadata URL in Parameter'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-ssrf
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/225/664
+934120:
+  msg: 'Possible Server Side Request Forgery (SSRF) Attack: URL Parameter using IP Address'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-ssrf
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/225/664
+934130:
+  msg: JavaScript Prototype Pollution
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-javascript
+    - platform-multi
+    - attack-rce
+    - attack-injection-generic
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1/180/77
+934140:
+  msg: Perl Injection Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-perl
+    - platform-multi
+    - attack-rce
+    - attack-injection-generic
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/152/242
+934150:
+  msg: Ruby Injection Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-ruby
+    - platform-multi
+    - attack-rce
+    - attack-injection-generic
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/152/242
+934160:
+  msg: Node.js DoS attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-javascript
+    - platform-nodejs
+    - attack-rce
+    - attack-injection-generic
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/152/242
+934170:
+  msg: PHP data scheme attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-ssrf
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/152/242
+934180:
+  msg: SSTI Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - platform-multi
+    - attack-ssti
+    - attack-injection-generic
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/152/242
+934190:
+  msg: 'Possible Server Side Request Forgery (SSRF) Attack: Scheme-less localhost or internal hostname detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-ssrf
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/225/664
+934200:
+  msg: Server-Side Template Injection (SSTI) Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - platform-multi
+    - attack-ssti
+    - attack-injection-generic
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-GENERIC
+    - capec/1000/152/242
+941010:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+941011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+941012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+941013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+941014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+941015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+941016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+941017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+941018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+941100:
+  msg: XSS Attack Detected via libinjection
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941101:
+  msg: XSS Attack Detected via libinjection
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941110:
+  msg: 'XSS Filter - Category 1: Script Tag Vector'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941120:
+  msg: 'XSS Filter - Category 2: Event Handler Vector'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941130:
+  msg: 'XSS Filter - Category 3: Attribute Vector'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941140:
+  msg: 'XSS Filter - Category 4: Javascript URI Vector'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941150:
+  msg: 'XSS Filter - Category 5: Disallowed HTML Attributes'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941160:
+  msg: 'NoScript XSS InjectionChecker: HTML Injection'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941170:
+  msg: 'NoScript XSS InjectionChecker: Attribute Injection'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941180:
+  msg: Node-Validator Deny List Keywords
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-nodejs
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941181:
+  msg: Node-Validator Deny List Keywords
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941190:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941200:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941210:
+  msg: Javascript Word Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941220:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941230:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941240:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941250:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941260:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941270:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941280:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941290:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941300:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941310:
+  msg: US-ASCII Malformed Encoding XSS Filter - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-tomcat
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941320:
+  msg: Possible XSS Attack Detected - HTML Tag Handler
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242/63
+941330:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941340:
+  msg: IE XSS Filters - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941350:
+  msg: UTF-7 Encoding IE XSS - Attack Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-internet-explorer
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941360:
+  msg: JSFuck / Hieroglyphy obfuscation detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242/63
+941370:
+  msg: JavaScript global variable found
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242/63
+941380:
+  msg: AngularJS client side template injection detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242/63
+941390:
+  msg: Javascript method detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-nodejs
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+941400:
+  msg: XSS JavaScript function without parentheses
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - attack-xss
+    - xss-perf-disable
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-XSS
+    - capec/1000/152/242
+942011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+942012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+942013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+942014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+942015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+942016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+942017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+942018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+942100:
+  msg: SQL Injection Attack Detected via libinjection
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942101:
+  msg: SQL Injection Attack Detected via libinjection
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942120:
+  msg: 'SQL Injection Attack: SQL Operator Detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942130:
+  msg: 'SQL Injection Attack: SQL Boolean-based attack detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942131:
+  msg: 'SQL Injection Attack: SQL Boolean-based attack detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942140:
+  msg: 'SQL Injection Attack: Common DB Names Detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942150:
+  msg: 'SQL Injection Attack: SQL function name detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942151:
+  msg: 'SQL Injection Attack: SQL function name detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942152:
+  msg: 'SQL Injection Attack: SQL function name detected'
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942160:
+  msg: Detects blind sqli tests using sleep() or benchmark()
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942170:
+  msg: Detects SQL benchmark and sleep injection attempts including conditional queries
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942180:
+  msg: Detects basic SQL authentication bypass attempts 1/3
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942190:
+  msg: Detects MSSQL code execution and information gathering attempts
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942200:
+  msg: Detects MySQL comment-/space-obfuscated injections and backtick termination
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942210:
+  msg: Detects chained SQL injection attempts 1/2
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942220:
+  msg: Looking for integer overflow attacks, these are taken from skipfish, except 2.2.2250738585072011e-308 is the "magic number" crash
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942230:
+  msg: Detects conditional SQL injection attempts
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942240:
+  msg: Detects MySQL charset switch and MSSQL DoS attempts
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942250:
+  msg: Detects MATCH AGAINST, MERGE and EXECUTE IMMEDIATE injections
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942251:
+  msg: Detects HAVING injections
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942260:
+  msg: Detects basic SQL authentication bypass attempts 2/3
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942270:
+  msg: Looking for basic sql injection. Common attack string for mysql, oracle and others
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942280:
+  msg: Detects Postgres pg_sleep injection, waitfor delay attacks and database shutdown attempts
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942290:
+  msg: Finds basic MongoDB SQL injection attempts
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942300:
+  msg: Detects MySQL comments, conditions and ch(a)r injections
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942310:
+  msg: Detects chained SQL injection attempts 2/2
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942320:
+  msg: Detects MySQL and PostgreSQL stored procedure/function injections
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942321:
+  msg: Detects MySQL and PostgreSQL stored procedure/function injections
+  severity: CRITICAL
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942330:
+  msg: Detects classic SQL injection probings 1/3
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942340:
+  msg: Detects basic SQL authentication bypass attempts 3/3
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942350:
+  msg: Detects MySQL UDF injection and other data/structure manipulation attempts
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942360:
+  msg: Detects concatenated basic SQL injection and SQLLFI attempts
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942361:
+  msg: Detects basic SQL injection based on keyword alter or union
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942362:
+  msg: Detects concatenated basic SQL injection and SQLLFI attempts
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942370:
+  msg: Detects classic SQL injection probings 2/3
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942380:
+  msg: SQL Injection Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942390:
+  msg: SQL Injection Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942400:
+  msg: SQL Injection Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942410:
+  msg: SQL Injection Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942420:
+  msg: 'Restricted SQL Character Anomaly Detection (cookies): # of special characters exceeded (8)'
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942421:
+  msg: 'Restricted SQL Character Anomaly Detection (cookies): # of special characters exceeded (3)'
+  severity: WARNING
+  phase: 1
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/4
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942430:
+  msg: 'Restricted SQL Character Anomaly Detection (args): # of special characters exceeded (12)'
+  severity: WARNING
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942431:
+  msg: 'Restricted SQL Character Anomaly Detection (args): # of special characters exceeded (6)'
+  severity: WARNING
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942432:
+  msg: 'Restricted SQL Character Anomaly Detection (args): # of special characters exceeded (2)'
+  severity: WARNING
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/4
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942440:
+  msg: SQL Comment Sequence Detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942450:
+  msg: SQL Bin or Hex Encoding Identified
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942460:
+  msg: Meta-Character Anomaly Detection Alert - Repetitive Non-Word Characters
+  severity: WARNING
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942470:
+  msg: SQL Injection Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942480:
+  msg: SQL Injection Attack
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942490:
+  msg: Detects classic SQL injection probings 3/3
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942500:
+  msg: MySQL in-line comment detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942510:
+  msg: SQLi bypass attempt by ticks or backticks detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942511:
+  msg: SQLi bypass attempt by ticks detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942520:
+  msg: Detects basic SQL authentication bypass attempts 4.0/4
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942521:
+  msg: Detects basic SQL authentication bypass attempts 4.1/4
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942522:
+  msg: Detects basic SQL authentication bypass attempts 4.1/4
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942530:
+  msg: SQLi query termination detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942540:
+  msg: SQL Authentication bypass (split query)
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - paranoia-level/1
+    - capec/1000/152/248/66
+942550:
+  msg: JSON-Based SQL Injection
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+942560:
+  msg: MySQL Scientific Notation payload detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-sqli
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SQLI
+    - capec/1000/152/248/66
+943011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+943012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+943013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+943014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+943015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+943016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+943017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+943018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+943100:
+  msg: 'Possible Session Fixation Attack: Setting Cookie Values in HTML'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-fixation
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SESSION-FIXATION
+    - capec/1000/225/21/593/61
+943110:
+  msg: 'Possible Session Fixation Attack: SessionID Parameter Name with Off-Domain Referer'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-fixation
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SESSION-FIXATION
+    - capec/1000/225/21/593/61
+943120:
+  msg: 'Possible Session Fixation Attack: SessionID Parameter Name with No Referer'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-fixation
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-SESSION-FIXATION
+    - capec/1000/225/21/593/61
+944011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+944012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+944013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+944014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+944015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+944016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+944017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+944018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+944100:
+  msg: 'Remote Command Execution: Suspicious Java class detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/137/6
+944110:
+  msg: 'Remote Command Execution: Java process spawn (CVE-2017-9805)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/248
+944120:
+  msg: 'Remote Command Execution: Java serialization (CVE-2015-4852)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/248
+944130:
+  msg: Suspicious Java class detected
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/248
+944140:
+  msg: 'Java Injection Attack: Java Script File Upload Found'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-injection-java
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/242
+944150:
+  msg: 'Potential Remote Command Execution: Log4j / Log4shell'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/137/6
+944151:
+  msg: 'Potential Remote Command Execution: Log4j / Log4shell'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/137/6
+944152:
+  msg: 'Potential Remote Command Execution: Log4j / Log4shell'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/4
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/137/6
+944200:
+  msg: Magic bytes Detected, probable java serialization in use
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/248
+944210:
+  msg: Magic bytes Detected Base64 Encoded, probable java serialization in use
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/248
+944240:
+  msg: 'Remote Command Execution: Java serialization (CVE-2015-4852)'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/248
+944250:
+  msg: 'Remote Command Execution: Suspicious Java method detected'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/248
+944260:
+  msg: 'Remote Command Execution: Malicious class-loading payload'
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/248
+944300:
+  msg: Base64 encoded string matched suspicious keyword
+  severity: CRITICAL
+  phase: 2
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-rce
+    - paranoia-level/3
+    - OWASP_CRS
+    - OWASP_CRS/ATTACK-JAVA
+    - capec/1000/152/248
+949011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949052:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949053:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949054:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949055:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949059:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949060:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949061:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949062:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949063:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949110:
+  msg: 'Inbound Anomaly Score Exceeded (Total Score: %{TX.BLOCKING_INBOUND_ANOMALY_SCORE})'
+  severity: ''
+  phase: 2
+  action: deny
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - anomaly-evaluation
+    - OWASP_CRS
+949111:
+  msg: 'Inbound Anomaly Score Exceeded in phase 1 (Total Score: %{TX.BLOCKING_INBOUND_ANOMALY_SCORE})'
+  severity: ''
+  phase: 1
+  action: deny
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - anomaly-evaluation
+    - OWASP_CRS
+949152:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949153:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949154:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949155:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949159:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949160:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949161:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949162:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+949163:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+950010:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES
+950011:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+950012:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+950013:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+950014:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+950015:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+950016:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+950017:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+950018:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+950021:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES
+950100:
+  msg: The Application Returned a 500-Level Status Code
+  severity: ERROR
+  phase: 3
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES
+    - capec/1000/152
+950130:
+  msg: Directory Listing
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES
+    - capec/1000/118/116/54/127
+950140:
+  msg: CGI source code leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES
+    - capec/1000/118/116
+950150:
+  msg: ASP.NET exception leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-aspnet
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES
+    - capec/1000/118/116/54/127
+951010:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+951011:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+951012:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+951013:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+951014:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+951015:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+951016:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+951017:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+951018:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+951100:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-multi
+    - attack-disclosure
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951110:
+  msg: Microsoft Access SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-msaccess
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951120:
+  msg: Oracle SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-oracle
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951130:
+  msg: DB2 SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-db2
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951140:
+  msg: EMC SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-emc
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951150:
+  msg: firebird SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-firebird
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951160:
+  msg: Frontbase SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-frontbase
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951170:
+  msg: hsqldb SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-hsqldb
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951180:
+  msg: informix SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-informix
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951190:
+  msg: ingres SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-ingres
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951200:
+  msg: interbase SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-interbase
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951210:
+  msg: maxDB SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-maxdb
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951220:
+  msg: mssql SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-mssql
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951230:
+  msg: mysql SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-mysql
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951240:
+  msg: postgres SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-pgsql
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951250:
+  msg: sqlite SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-sqlite
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+951260:
+  msg: Sybase SQL Information Leakage
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-sybase
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-SQL
+    - capec/1000/118/116/54
+952010:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-JAVA
+952011:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+952012:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+952013:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+952014:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+952015:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+952016:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+952017:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+952018:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+952110:
+  msg: Java Errors
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-java
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-JAVA
+    - capec/1000/118/116
+953010:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-PHP
+953011:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+953012:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+953013:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+953014:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+953015:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+953016:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+953017:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+953018:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+953100:
+  msg: PHP Information Leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-PHP
+    - capec/1000/118/116
+953101:
+  msg: PHP Information Leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-PHP
+    - capec/1000/118/116
+953110:
+  msg: PHP source code leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-PHP
+    - capec/1000/118/116
+953120:
+  msg: PHP source code leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-php
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-PHP
+    - capec/1000/118/116
+954010:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-IIS
+954011:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+954012:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+954013:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+954014:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+954015:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+954016:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+954017:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+954018:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+954100:
+  msg: Disclosure of IIS install location
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-iis
+    - platform-windows
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-IIS
+    - capec/1000/118/116
+954101:
+  msg: Disclosure of IIS install location
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-iis
+    - platform-windows
+    - attack-disclosure
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-IIS
+    - capec/1000/118/116
+954110:
+  msg: Application Availability Error
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-iis
+    - platform-windows
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-IIS
+    - capec/1000/118/116
+954120:
+  msg: IIS Information Leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-iis
+    - platform-windows
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-IIS
+    - capec/1000/118/116
+954130:
+  msg: IIS Information Leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-multi
+    - platform-iis
+    - platform-windows
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-IIS
+    - capec/1000/118/116
+955010:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+955011:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+955012:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+955013:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+955014:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+955015:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+955016:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+955017:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+955018:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+955100:
+  msg: PHP Web shell detected
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955110:
+  msg: r57 web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955120:
+  msg: WSO web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955130:
+  msg: b4tm4n web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955140:
+  msg: Mini Shell web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955150:
+  msg: Ashiyane web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955160:
+  msg: Symlink_Sa web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955170:
+  msg: CasuS web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955180:
+  msg: GRP WebShell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955190:
+  msg: NGHshell web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955200:
+  msg: SimAttacker web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955210:
+  msg: Unknown web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955220:
+  msg: lama's'hell web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955230:
+  msg: lostDC web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955240:
+  msg: Unknown web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955250:
+  msg: Unknown web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955260:
+  msg: Ru24PostWebShell web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955270:
+  msg: s72 Shell web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955280:
+  msg: PhpSpy web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955290:
+  msg: g00nshell web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955300:
+  msg: PuNkHoLic shell web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955310:
+  msg: azrail web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955320:
+  msg: SmEvK_PaThAn Shell web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955330:
+  msg: Shell I web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955340:
+  msg: b374k m1n1 web shell
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955350:
+  msg: webadmin.php file manager
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+955400:
+  msg: ASP Web shell detected
+  severity: CRITICAL
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - language-php
+    - platform-multi
+    - attack-rce
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/WEB-SHELLS
+    - capec/1000/225/122/17/650
+956010:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-RUBY
+956011:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+956012:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+956013:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+956014:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+956015:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+956016:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+956017:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+956018:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+956100:
+  msg: RUBY Information Leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-ruby
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/1
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-RUBY
+    - capec/1000/118/116
+956110:
+  msg: Ruby source code leakage
+  severity: ERROR
+  phase: 4
+  action: block
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - application-multi
+    - language-ruby
+    - platform-multi
+    - attack-disclosure
+    - paranoia-level/2
+    - OWASP_CRS
+    - OWASP_CRS/DATA-LEAKAGES-RUBY
+    - capec/1000/118/116
+959011:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959012:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959013:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959014:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959015:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959016:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959017:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959018:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959052:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959053:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959054:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959055:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959059:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959060:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959061:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959062:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959063:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959100:
+  msg: 'Outbound Anomaly Score Exceeded (Total Score: %{tx.blocking_outbound_anomaly_score})'
+  severity: ''
+  phase: 4
+  action: deny
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - anomaly-evaluation
+    - OWASP_CRS
+959101:
+  msg: 'Outbound Anomaly Score Exceeded in phase 3 (Total Score: %{tx.blocking_outbound_anomaly_score})'
+  severity: ''
+  phase: 3
+  action: deny
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - anomaly-evaluation
+    - OWASP_CRS
+959152:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959153:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959154:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959155:
+  msg: ''
+  severity: ''
+  phase: 3
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959159:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959160:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959161:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959162:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+959163:
+  msg: ''
+  severity: ''
+  phase: 4
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980011:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980012:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980013:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980014:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980015:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980016:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980017:
+  msg: ''
+  severity: ''
+  phase: 1
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980018:
+  msg: ''
+  severity: ''
+  phase: 2
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980041:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980042:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980043:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980044:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980045:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980046:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980047:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980048:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980049:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980050:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980051:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980099:
+  msg: ''
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - OWASP_CRS
+980170:
+  msg: 'Anomaly Scores:  (Inbound Scores: blocking=%{tx.blocking_inbound_anomaly_score}, detection=%{tx.detection_inbound_anomaly_score}, per_pl=%{tx.inbound_anomaly_score_pl1}-%{tx.inbound_anomaly_score_pl2}-%{tx.inbound_anomaly_score_pl3}-%{tx.inbound_anomaly_score_pl4}, threshold=%{tx.inbound_anomaly_score_threshold}) -  (Outbound Scores: blocking=%{tx.blocking_outbound_anomaly_score}, detection=%{tx.detection_outbound_anomaly_score}, per_pl=%{tx.outbound_anomaly_score_pl1}-%{tx.outbound_anomaly_score_pl2}-%{tx.outbound_anomaly_score_pl3}-%{tx.outbound_anomaly_score_pl4}, threshold=%{tx.outbound_anomaly_score_threshold}) -  (SQLI=%{tx.sql_injection_score}, XSS=%{tx.xss_score}, RFI=%{tx.rfi_score}, LFI=%{tx.lfi_score}, RCE=%{tx.rce_score}, PHPI=%{tx.php_injection_score}, HTTP=%{tx.http_violation_score}, SESS=%{tx.session_fixation_score}, COMBINED_SCORE=%{tx.anomaly_score})'
+  severity: ''
+  phase: 5
+  action: pass
+  ver: OWASP_CRS/4.27.0-dev
+  tag:
+    - reporting
+    - OWASP_CRS

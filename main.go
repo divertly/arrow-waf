@@ -6,6 +6,11 @@ import (
 	"runtime"
 	"runtime/pprof"
 
+	crs "github.com/corazawaf/coraza-coreruleset"
+	geo "github.com/corazawaf/coraza-geoip"
+	"github.com/corazawaf/coraza/v3"
+	"github.com/jcchavezs/mergefs"
+	"github.com/jcchavezs/mergefs/io"
 	"github.com/kkyr/fig"
 	"github.com/prometheus/client_golang/prometheus"
 )
@@ -67,9 +72,32 @@ func main() {
 	logmain.Debug().Str(this()).Msg("Configured the logger; starting the WAF!")
 	logmain.Info().Str(this()).Msgf("PROFILE: %s", env)
 	logmain.Trace().Any("config", G.Config).Str(this()).Msg("CONFIG")
-
-	/// DO STUFF
-
+	err = geo.RegisterGeoDatabaseFromFile("conf/maxmind_city.mmdb", "city")
+	if err != nil {
+		panic(err)
+	}
+	coraza, err := coraza.NewWAF(
+		coraza.NewWAFConfig().
+			WithRootFS(mergefs.Merge(crs.FS, io.OSFS)).
+			WithDirectivesFromFile("conf/coraza.conf").
+			WithDirectivesFromFile("conf/crs-setup.conf").
+			WithDirectivesFromFile("@owasp_crs/*.conf"),
+	)
+	if err != nil {
+		logmain.Fatal().Err(err).Str(this()).Msg("Error setting up Coraza WAF engine")
+	}
+	G.CZA = coraza
+	ruleList, err := LoadRuleList(G.Config.Core.RuleListLocation)
+	if err != nil {
+		logmain.Fatal().Err(err).Msg("Error loading rule list")
+	}
+	G.Rules = ruleList
+	waf, err := NewWAF()
+	if err != nil {
+		logmain.Fatal().Err(err).Str(this()).Msg("Error setting up WAF")
+	}
+	G.WAF = waf
+	go G.WAF.Run()
 	logmain.Info().Str(this()).Msg("Startup complete!")
 	os.Exit(catchSignals(G.Handlers))
 }
