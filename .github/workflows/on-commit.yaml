@@ -1,0 +1,105 @@
+name: On Commit
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions: write-all
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5
+
+      - name: setup go env
+        uses: actions/setup-go@v6
+        with:
+          go-version: 1.25.0
+
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v9
+        with:
+          version: v2.10.1
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 10
+
+      - name: setup go env
+        uses: actions/setup-go@v6
+        with:
+          go-version: 1.25.0
+
+      - name: Test
+        uses: robherley/go-test-action@v0
+        with:
+          testArguments: -v
+
+      - name: coverage
+        uses: gwatts/go-coverage-action@v2
+        id: coverage
+
+  dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5
+
+      - name: setup go env
+        uses: actions/setup-go@v6
+        with:
+          go-version: 1.25.0
+
+      - name: Submit Dependencies
+        uses: actions/go-dependency-submission@v2
+        with:
+          go-mod-path: go.mod
+          go-build-target: main.go
+
+  gosec:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5
+
+      - name: setup go env
+        uses: actions/setup-go@v6
+        with:
+          go-version: 1.25.0
+
+      - name: Run Gosec Security Scanner
+        uses: securego/gosec@v2.23.0
+        with:
+          args: -exclude=G115 ./...
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: [lint, test, dependencies, gosec]
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5
+
+      - name: setup docker buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: peterfraedrich
+          password: ${{ secrets.GH_PAT }}
+
+      - name: Install Task
+        uses: rsclarke/install-task@v1
+
+      - name: docker build
+        shell: bash
+        run: task push
