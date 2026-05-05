@@ -47,11 +47,11 @@ tasks:
   ## build docker locally, but do not push
   docker:
     cmds:
-      - docker build -t ghcr.io/divertly/waf:dev-latest -t ghcr.io/divertly/waf:{{.VERSION}} --build-arg VERSION={{.VERSION}} .
+      - docker build -t ghcr.io/divertly/arrow-waf:dev-latest -t ghcr.io/divertly/arrow-waf:{{.VERSION}} --build-arg VERSION={{.VERSION}} .
 
   ## BUILD AND PUSH DOCKERFILE TO GITHUB
   push:
     cmds:
       - task: docker
-      - docker push ghcr.io/divertly/waf:dev-latest
-      - docker push ghcr.io/divertly/waf:{{.VERSION}}
+      - docker push ghcr.io/divertly/arrow-waf:dev-latest
+      - docker push ghcr.io/divertly/arrow-waf:{{.VERSION}}

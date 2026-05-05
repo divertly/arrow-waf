@@ -13,8 +13,8 @@ RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -ldflags "-X main.VERSION=
 
 ### RELEASE IMAGE #########################################
 FROM alpine:3.23
-LABEL org.opencontainers.image.source=https://github.com/divertly/waf
-LABEL org.opencontainers.image.description="Divertly WAF; securing stuff."
+LABEL org.opencontainers.image.source=https://github.com/divertly/arrow-waf
+LABEL org.opencontainers.image.description="A Coraza-based web application firewall that natively emits Prometheus metrics."
 
 ENV \
     APP_PROFILE=docker 
