@@ -1,0 +1,57 @@
+version: '3'
+vars:
+  VERSION:
+    sh: echo $(date +"%Y%m%d")-$(git rev-parse --short=8 HEAD)
+
+tasks:
+
+  ####################### DEV ####################################
+  ## quick local build
+  build:
+    cmds:
+      - go build .
+
+  ####################### TESTS ###################################
+  test:
+    deps:
+      - go-test
+      - go-lint
+      - go-sec
+
+  go-test:
+    internal: true
+    cmd: go test -v
+
+  go-lint:
+    internal: true
+    cmd: golangci-lint run
+
+  go-vuln:
+    internal: true
+    cmd: govulncheck -show color ./...
+
+  go-sec:
+    internal: true
+    cmd: gosec -exclude=G115 ./...
+
+  ######################### PACKAGING #################################
+  release:
+    cmds:
+      - go build -ldflags "-X main.VERSION={{.VERSION}} -s -w" -o waf .
+
+    env:
+      CGO_ENABLED: 0
+      GOOS: linux
+      GOARCH: amd64
+
+  ## build docker locally, but do not push
+  docker:
+    cmds:
+      - docker build -t ghcr.io/divertly/waf:dev-latest -t ghcr.io/divertly/waf:{{.VERSION}} --build-arg VERSION={{.VERSION}} .
+
+  ## BUILD AND PUSH DOCKERFILE TO GITHUB
+  push:
+    cmds:
+      - task: docker
+      - docker push ghcr.io/divertly/waf:dev-latest
+      - docker push ghcr.io/divertly/waf:{{.VERSION}}
