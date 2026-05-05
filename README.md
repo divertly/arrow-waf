@@ -1,5 +1,7 @@
 <img src="docs/arrow_waf.png" height="300px">
 
+[![On Commit](https://github.com/divertly/arrow-waf/actions/workflows/on-commit.yaml/badge.svg)](https://github.com/divertly/arrow-waf/actions/workflows/on-commit.yaml)
+
 # Arrow WAF
 
 Arrow WAF is a Coraza-based web application firewall that natively emits Prometheus metrics. This project was more or less created out of spite for the fact that no modern WAFs have good Prometheus integrations.
