@@ -8,8 +8,8 @@ waf:
 
 log:
   format: text
-  level: trace
-  color: true
+  level: warn
+  color: false
 
 system:
   host: 0.0.0.0

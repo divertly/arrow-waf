@@ -21,12 +21,13 @@ ENV \
 
 COPY --from=builder /dist/waf .
 COPY --from=builder /dist/profiles ./profiles/
+COPY --from=builder /dist/conf ./conf/
 
 # public port
-EXPOSE 5000
+EXPOSE 6080
 
 # private port
-EXPOSE 5001
+EXPOSE 6081
 
 USER 1001:1001
 
